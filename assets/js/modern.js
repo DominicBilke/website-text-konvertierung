@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initAnimations();
     initFormEnhancements();
     initMobileMenu();
+    initLanguageSwitcher();
     
     // Smooth scrolling for navigation links
     function initSmoothScrolling() {
@@ -449,6 +450,84 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initialize progress indicator
     addProgressIndicator();
+    
+    // Language switching functionality
+    function initLanguageSwitcher() {
+        const langButtons = document.querySelectorAll('.lang-btn');
+        let currentLang = 'de'; // Default language is German
+        
+        // Check if user has a saved language preference
+        const savedLang = localStorage.getItem('preferred-language');
+        if (savedLang) {
+            currentLang = savedLang;
+            updateLanguageDisplay(currentLang);
+        }
+        
+        langButtons.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const lang = this.getAttribute('data-lang');
+                if (lang !== currentLang) {
+                    currentLang = lang;
+                    updateLanguageDisplay(lang);
+                    localStorage.setItem('preferred-language', lang);
+                    
+                    // Update active button state
+                    langButtons.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                }
+            });
+        });
+        
+        function updateLanguageDisplay(lang) {
+            // Update all elements with language data attributes
+            document.querySelectorAll('[data-' + lang + ']').forEach(element => {
+                const text = element.getAttribute('data-' + lang);
+                if (text) {
+                    element.textContent = text;
+                }
+            });
+            
+            // Update placeholders
+            document.querySelectorAll('[data-placeholder-' + lang + ']').forEach(element => {
+                const placeholder = element.getAttribute('data-placeholder-' + lang);
+                if (placeholder) {
+                    element.placeholder = placeholder;
+                }
+            });
+            
+            // Update page title
+            const titleElement = document.querySelector('title');
+            if (titleElement) {
+                if (lang === 'de') {
+                    titleElement.textContent = 'Text-Konvertierung - Moderne OCR & Sprachkonvertierung';
+                } else {
+                    titleElement.textContent = 'Text-Konvertierung - Modern OCR & Speech Conversion';
+                }
+            }
+            
+            // Update meta description
+            const metaDesc = document.querySelector('meta[name="description"]');
+            if (metaDesc) {
+                if (lang === 'de') {
+                    metaDesc.setAttribute('content', 'Konvertieren Sie Ihre Texte mit Leichtigkeit mit unseren modernen OCR-, Übersetzungs- und Text-zu-Sprache-Tools.');
+                } else {
+                    metaDesc.setAttribute('content', 'Convert your texts with ease using our modern OCR, translation, and text-to-speech tools.');
+                }
+            }
+        }
+        
+        // Initialize with current language
+        updateLanguageDisplay(currentLang);
+        
+        // Set initial active button
+        langButtons.forEach(btn => {
+            if (btn.getAttribute('data-lang') === currentLang) {
+                btn.classList.add('active');
+            } else {
+                btn.classList.remove('active');
+            }
+        });
+    }
     
     // Add CSS for progress bar
     const progressStyle = document.createElement('style');

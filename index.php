@@ -179,8 +179,8 @@ $txt = file_get_contents($Url);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text-Konvertierung - Modern OCR & Speech Conversion</title>
-    <meta name="description" content="Convert your texts with ease using our modern OCR, translation, and text-to-speech tools.">
+    <title>Text-Konvertierung - Moderne OCR & Sprachkonvertierung</title>
+    <meta name="description" content="Konvertieren Sie Ihre Texte mit Leichtigkeit mit unseren modernen OCR-, Übersetzungs- und Text-zu-Sprache-Tools.">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -202,27 +202,31 @@ $txt = file_get_contents($Url);
             </a>
             <nav>
                 <ul class="nav-menu">
-                    <li><a href="#home" class="nav-link">Home</a></li>
-                    <li><a href="#ocr" class="nav-link">OCR</a></li>
-                    <li><a href="#translation" class="nav-link">Translation</a></li>
-                    <li><a href="#speech" class="nav-link">Speech</a></li>
-                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#home" class="nav-link" data-de="Startseite" data-en="Home">Startseite</a></li>
+                    <li><a href="#ocr" class="nav-link" data-de="OCR" data-en="OCR">OCR</a></li>
+                    <li><a href="#translation" class="nav-link" data-de="Übersetzung" data-en="Translation">Übersetzung</a></li>
+                    <li><a href="#speech" class="nav-link" data-de="Sprache" data-en="Speech">Sprache</a></li>
+                    <li><a href="#about" class="nav-link" data-de="Über uns" data-en="About">Über uns</a></li>
                 </ul>
             </nav>
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="de">DE</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+            </div>
         </div>
     </header>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content fade-in-up">
-            <h1>Convert Your Texts with Ease</h1>
-            <p>Transform documents, translate languages, and convert text to speech with our powerful AI-powered tools. Professional, fast, and accurate.</p>
+            <h1 data-de="Konvertieren Sie Ihre Texte mit Leichtigkeit" data-en="Convert Your Texts with Ease">Konvertieren Sie Ihre Texte mit Leichtigkeit</h1>
+            <p data-de="Transformieren Sie Dokumente, übersetzen Sie Sprachen und konvertieren Sie Text in Sprache mit unseren leistungsstarken KI-gestützten Tools. Professionell, schnell und präzise." data-en="Transform documents, translate languages, and convert text to speech with our powerful AI-powered tools. Professional, fast, and accurate.">Transformieren Sie Dokumente, übersetzen Sie Sprachen und konvertieren Sie Text in Sprache mit unseren leistungsstarken KI-gestützten Tools. Professionell, schnell und präzise.</p>
             <div class="hero-buttons">
                 <a href="#ocr" class="btn btn-primary">
-                    <i class="fas fa-camera"></i> Start OCR
+                    <i class="fas fa-camera"></i> <span data-de="OCR starten" data-en="Start OCR">OCR starten</span>
                 </a>
                 <a href="#translation" class="btn btn-secondary">
-                    <i class="fas fa-language"></i> Translate Now
+                    <i class="fas fa-language"></i> <span data-de="Jetzt übersetzen" data-en="Translate Now">Jetzt übersetzen</span>
                 </a>
             </div>
         </div>
@@ -232,30 +236,30 @@ $txt = file_get_contents($Url);
     <section class="features">
         <div class="features-container">
             <div class="section-header fade-in-up">
-                <h2>Powerful Conversion Tools</h2>
-                <p>Everything you need for text processing in one place</p>
+                <h2 data-de="Leistungsstarke Konvertierungstools" data-en="Powerful Conversion Tools">Leistungsstarke Konvertierungstools</h2>
+                <p data-de="Alles, was Sie für die Textverarbeitung benötigen, an einem Ort" data-en="Everything you need for text processing in one place">Alles, was Sie für die Textverarbeitung benötigen, an einem Ort</p>
             </div>
             <div class="features-grid">
                 <div class="feature-card fade-in-up">
                     <div class="feature-icon">
                         <i class="fas fa-camera"></i>
                     </div>
-                    <h3>OCR to Text</h3>
-                    <p>Extract text from images, PDFs, and scanned documents with high accuracy using advanced OCR technology.</p>
+                    <h3 data-de="OCR zu Text" data-en="OCR to Text">OCR zu Text</h3>
+                    <p data-de="Extrahieren Sie Text aus Bildern, PDFs und gescannten Dokumenten mit hoher Genauigkeit durch fortschrittliche OCR-Technologie." data-en="Extract text from images, PDFs, and scanned documents with high accuracy using advanced OCR technology.">Extrahieren Sie Text aus Bildern, PDFs und gescannten Dokumenten mit hoher Genauigkeit durch fortschrittliche OCR-Technologie.</p>
                 </div>
                 <div class="feature-card fade-in-up">
                     <div class="feature-icon">
                         <i class="fas fa-language"></i>
                     </div>
-                    <h3>Multi-Language Translation</h3>
-                    <p>Translate text between 30+ languages with professional-grade accuracy and natural language processing.</p>
+                    <h3 data-de="Mehrsprachige Übersetzung" data-en="Multi-Language Translation">Mehrsprachige Übersetzung</h3>
+                    <p data-de="Übersetzen Sie Text zwischen über 30 Sprachen mit professioneller Genauigkeit und natürlicher Sprachverarbeitung." data-en="Translate text between 30+ languages with professional-grade accuracy and natural language processing.">Übersetzen Sie Text zwischen über 30 Sprachen mit professioneller Genauigkeit und natürlicher Sprachverarbeitung.</p>
                 </div>
                 <div class="feature-card fade-in-up">
                     <div class="feature-icon">
                         <i class="fas fa-volume-up"></i>
                     </div>
-                    <h3>Text to Speech</h3>
-                    <p>Convert any text into natural-sounding speech with multiple voice options and language support.</p>
+                    <h3 data-de="Text zu Sprache" data-en="Text to Speech">Text zu Sprache</h3>
+                    <p data-de="Konvertieren Sie jeden Text in natürlich klingende Sprache mit mehreren Stimmenoptionen und Sprachunterstützung." data-en="Convert any text into natural-sounding speech with multiple voice options and language support.">Konvertieren Sie jeden Text in natürlich klingende Sprache mit mehreren Stimmenoptionen und Sprachunterstützung.</p>
                 </div>
             </div>
         </div>
@@ -265,24 +269,24 @@ $txt = file_get_contents($Url);
     <section id="ocr" class="conversion-section">
         <div class="conversion-container">
             <div class="section-header fade-in-up">
-                <h2>OCR Text Recognition</h2>
-                <p>Upload your documents and images to extract editable text</p>
+                <h2 data-de="OCR Texterkennung" data-en="OCR Text Recognition">OCR Texterkennung</h2>
+                <p data-de="Laden Sie Ihre Dokumente und Bilder hoch, um bearbeitbaren Text zu extrahieren" data-en="Upload your documents and images to extract editable text">Laden Sie Ihre Dokumente und Bilder hoch, um bearbeitbaren Text zu extrahieren</p>
             </div>
             <form method="post" action="#translation" class="conversion-form fade-in-up" enctype="multipart/form-data">
                 <div class="form-group">
-                    <label class="form-label">Select File</label>
+                    <label class="form-label" data-de="Datei auswählen" data-en="Select File">Datei auswählen</label>
                     <div class="file-upload">
                         <input type="file" name="pdffile" id="pdffile" accept=".jpg, .jpeg, .png, .gif, .pdf" required>
                         <label for="pdffile" class="file-upload-label">
                             <i class="fas fa-cloud-upload-alt fa-2x"></i><br>
-                            <strong>Click to upload</strong> or drag and drop<br>
-                            <small>Supports: JPG, PNG, GIF, PDF</small>
+                            <strong data-de="Klicken zum Hochladen" data-en="Click to upload">Klicken zum Hochladen</strong> <span data-de="oder ziehen und ablegen" data-en="or drag and drop">oder ziehen und ablegen</span><br>
+                            <small data-de="Unterstützt: JPG, PNG, GIF, PDF" data-en="Supports: JPG, PNG, GIF, PDF">Unterstützt: JPG, PNG, GIF, PDF</small>
                         </label>
                     </div>
                 </div>
                 
                 <div class="form-group">
-                    <label for="from" class="form-label">Document Language</label>
+                    <label for="from" class="form-label" data-de="Dokumentensprache" data-en="Document Language">Dokumentensprache</label>
                     <select id="from" name="from" class="form-select" required>
                         <option value="de">German - Deutsch</option>
                         <option value="en">English</option>
@@ -321,7 +325,7 @@ $txt = file_get_contents($Url);
                 </div>
                 
                 <button type="submit" class="btn btn-primary">
-                    <i class="fas fa-search"></i> Recognize Text
+                    <i class="fas fa-search"></i> <span data-de="Text erkennen" data-en="Recognize Text">Text erkennen</span>
                 </button>
             </form>
         </div>
@@ -331,17 +335,17 @@ $txt = file_get_contents($Url);
     <section id="translation" class="conversion-section">
         <div class="conversion-container">
             <div class="section-header fade-in-up">
-                <h2>Text Translation</h2>
-                <p>Translate your text between multiple languages with professional accuracy</p>
+                <h2 data-de="Textübersetzung" data-en="Text Translation">Textübersetzung</h2>
+                <p data-de="Übersetzen Sie Ihren Text zwischen mehreren Sprachen mit professioneller Genauigkeit" data-en="Translate your text between multiple languages with professional accuracy">Übersetzen Sie Ihren Text zwischen mehreren Sprachen mit professioneller Genauigkeit</p>
             </div>
             <form method="post" action="#speech" class="conversion-form fade-in-up" enctype="multipart/form-data">
                 <div class="form-group">
-                    <label for="txt" class="form-label">Enter Text to Translate</label>
-                    <textarea id="txt" name="txt" class="form-textarea" placeholder="Enter or paste your text here..." required><?php echo isset($txt) ? htmlspecialchars($txt) : ''; ?></textarea>
+                    <label for="txt" class="form-label" data-de="Text zum Übersetzen eingeben" data-en="Enter Text to Translate">Text zum Übersetzen eingeben</label>
+                    <textarea id="txt" name="txt" class="form-textarea" data-placeholder-de="Geben Sie hier Ihren Text ein oder fügen Sie ihn ein..." data-placeholder-en="Enter or paste your text here..." placeholder="Geben Sie hier Ihren Text ein oder fügen Sie ihn ein..." required><?php echo isset($txt) ? htmlspecialchars($txt) : ''; ?></textarea>
                 </div>
                 
                 <div class="form-group">
-                    <label for="from" class="form-label">From Language</label>
+                    <label for="from" class="form-label" data-de="Ausgangssprache" data-en="From Language">Ausgangssprache</label>
                     <select id="from" name="from" class="form-select" required>
                         <option value="de"<?php if(isset($from) && $from=="de") echo " selected"; ?>>German - Deutsch</option>
                         <option value="en"<?php if(isset($from) && $from=="en") echo " selected"; ?>>English</option>
@@ -380,7 +384,7 @@ $txt = file_get_contents($Url);
                 </div>
                 
                 <div class="form-group">
-                    <label for="to" class="form-label">To Language</label>
+                    <label for="to" class="form-label" data-de="Zielsprache" data-en="To Language">Zielsprache</label>
                     <select id="to" name="to" class="form-select" required>
                         <option value="en"<?php if(isset($to) && $to=="en") echo " selected"; ?>>English</option>
                         <option value="de"<?php if(isset($to) && $to=="de") echo " selected"; ?>>German - Deutsch</option>
@@ -419,7 +423,7 @@ $txt = file_get_contents($Url);
                 </div>
                 
                 <button type="submit" class="btn btn-primary">
-                    <i class="fas fa-language"></i> Translate Text
+                    <i class="fas fa-language"></i> <span data-de="Text übersetzen" data-en="Translate Text">Text übersetzen</span>
                 </button>
             </form>
             
@@ -441,8 +445,8 @@ $txt = file_get_contents($Url);
     <section id="speech" class="conversion-section">
         <div class="conversion-container">
             <div class="section-header fade-in-up">
-                <h2>Text to Speech Conversion</h2>
-                <p>Listen to your text in multiple languages with natural-sounding voices</p>
+                <h2 data-de="Text-zu-Sprache-Konvertierung" data-en="Text to Speech Conversion">Text-zu-Sprache-Konvertierung</h2>
+                <p data-de="Hören Sie Ihren Text in mehreren Sprachen mit natürlich klingenden Stimmen" data-en="Listen to your text in multiple languages with natural-sounding voices">Hören Sie Ihren Text in mehreren Sprachen mit natürlich klingenden Stimmen</p>
             </div>
             
             <?php if (isset($_POST['txt']) && $_POST['txt']): ?>
@@ -487,29 +491,29 @@ $txt = file_get_contents($Url);
     <section id="about" class="steps">
         <div class="steps-container">
             <div class="section-header fade-in-up">
-                <h2>How It Works</h2>
-                <p>Simple steps to convert your texts with professional results</p>
+                <h2 data-de="So funktioniert es" data-en="How It Works">So funktioniert es</h2>
+                <p data-de="Einfache Schritte, um Ihre Texte mit professionellen Ergebnissen zu konvertieren" data-en="Simple steps to convert your texts with professional results">Einfache Schritte, um Ihre Texte mit professionellen Ergebnissen zu konvertieren</p>
             </div>
             <div class="steps-grid">
                 <div class="step-card fade-in-up">
                     <div class="step-number">1</div>
-                    <h3>Upload or Enter Text</h3>
-                    <p>Upload your documents, images, or simply type the text you want to convert.</p>
+                    <h3 data-de="Text hochladen oder eingeben" data-en="Upload or Enter Text">Text hochladen oder eingeben</h3>
+                    <p data-de="Laden Sie Ihre Dokumente oder Bilder hoch oder geben Sie einfach den Text ein, den Sie konvertieren möchten." data-en="Upload your documents, images, or simply type the text you want to convert.">Laden Sie Ihre Dokumente oder Bilder hoch oder geben Sie einfach den Text ein, den Sie konvertieren möchten.</p>
                 </div>
                 <div class="step-card fade-in-up">
                     <div class="step-number">2</div>
-                    <h3>Choose Conversion Type</h3>
-                    <p>Select between OCR text recognition, language translation, or text-to-speech conversion.</p>
+                    <h3 data-de="Konvertierungstyp wählen" data-en="Choose Conversion Type">Konvertierungstyp wählen</h3>
+                    <p data-de="Wählen Sie zwischen OCR-Texterkennung, Sprachübersetzung oder Text-zu-Sprache-Konvertierung." data-en="Select between OCR text recognition, language translation, or text-to-speech conversion.">Wählen Sie zwischen OCR-Texterkennung, Sprachübersetzung oder Text-zu-Sprache-Konvertierung.</p>
                 </div>
                 <div class="step-card fade-in-up">
                     <div class="step-number">3</div>
-                    <h3>Select Languages</h3>
-                    <p>Choose your source and target languages from our extensive language support.</p>
+                    <h3 data-de="Sprachen auswählen" data-en="Select Languages">Sprachen auswählen</h3>
+                    <p data-de="Wählen Sie Ihre Quell- und Zielsprachen aus unserem umfangreichen Sprachsupport." data-en="Choose your source and target languages from our extensive language support.">Wählen Sie Ihre Quell- und Zielsprachen aus unserem umfangreichen Sprachsupport.</p>
                 </div>
                 <div class="step-card fade-in-up">
                     <div class="step-number">4</div>
-                    <h3>Get Results</h3>
-                    <p>Download your converted text or audio files instantly with professional quality.</p>
+                    <h3 data-de="Ergebnisse erhalten" data-en="Get Results">Ergebnisse erhalten</h3>
+                    <p data-de="Laden Sie Ihre konvertierten Text- oder Audiodateien sofort mit professioneller Qualität herunter." data-en="Download your converted text or audio files instantly with professional quality.">Laden Sie Ihre konvertierten Text- oder Audiodateien sofort mit professioneller Qualität herunter.</p>
                 </div>
             </div>
         </div>
@@ -519,8 +523,8 @@ $txt = file_get_contents($Url);
     <section class="testimonials">
         <div class="testimonials-container">
             <div class="section-header fade-in-up">
-                <h2>What Our Users Say</h2>
-                <p>Trusted by professionals worldwide for accurate text conversion</p>
+                <h2 data-de="Was unsere Nutzer sagen" data-en="What Our Users Say">Was unsere Nutzer sagen</h2>
+                <p data-de="Vertraut von Fachleuten weltweit für genaue Textkonvertierung" data-en="Trusted by professionals worldwide for accurate text conversion">Vertraut von Fachleuten weltweit für genaue Textkonvertierung</p>
             </div>
             <div class="testimonials-grid">
                 <div class="testimonial-card fade-in-up">
@@ -531,7 +535,7 @@ $txt = file_get_contents($Url);
                             <span>CEO, Company ABC</span>
                         </div>
                     </div>
-                    <p class="testimonial-text">"The text to speech feature is a game-changer for us. It helps us create audio versions of our content easily and professionally."</p>
+                    <p class="testimonial-text" data-de="„Die Text-zu-Sprache-Funktion ist ein Game-Changer für uns. Sie hilft uns, Audio-Versionen unserer Inhalte einfach und professionell zu erstellen."" data-en=""The text to speech feature is a game-changer for us. It helps us create audio versions of our content easily and professionally."">„Die Text-zu-Sprache-Funktion ist ein Game-Changer für uns. Sie hilft uns, Audio-Versionen unserer Inhalte einfach und professionell zu erstellen."</p>
                 </div>
                 <div class="testimonial-card fade-in-up">
                     <div class="testimonial-header">
@@ -541,7 +545,7 @@ $txt = file_get_contents($Url);
                             <span>Marketing Manager, XYZ Inc.</span>
                         </div>
                     </div>
-                    <p class="testimonial-text">"As a writer, I often need to translate texts, and this tool has made the process so much smoother. Highly recommended!"</p>
+                    <p class="testimonial-text" data-de="„Als Autorin muss ich oft Texte übersetzen, und dieses Tool hat den Prozess so viel reibungsloser gemacht. Sehr empfehlenswert!"" data-en=""As a writer, I often need to translate texts, and this tool has made the process so much smoother. Highly recommended!"">„Als Autorin muss ich oft Texte übersetzen, und dieses Tool hat den Prozess so viel reibungsloser gemacht. Sehr empfehlenswert!"</p>
                 </div>
                 <div class="testimonial-card fade-in-up">
                     <div class="testimonial-header">
@@ -551,7 +555,7 @@ $txt = file_get_contents($Url);
                             <span>Freelance Writer</span>
                         </div>
                     </div>
-                    <p class="testimonial-text">"I use the OCR feature frequently for my research projects, and it has saved me a lot of time. Thank you for this amazing tool!"</p>
+                    <p class="testimonial-text" data-de="„Ich verwende die OCR-Funktion häufig für meine Forschungsprojekte, und sie hat mir viel Zeit gespart. Vielen Dank für dieses erstaunliche Tool!"" data-en=""I use the OCR feature frequently for my research projects, and it has saved me a lot of time. Thank you for this amazing tool!"">„Ich verwende die OCR-Funktion häufig für meine Forschungsprojekte, und sie hat mir viel Zeit gespart. Vielen Dank für dieses erstaunliche Tool!"</p>
                 </div>
             </div>
         </div>
@@ -563,26 +567,26 @@ $txt = file_get_contents($Url);
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Text-Konvertierung</h3>
-                    <p>Professional text conversion tools for OCR, translation, and speech synthesis. Making text processing simple and efficient.</p>
+                    <p data-de="Professionelle Textkonvertierungstools für OCR, Übersetzung und Sprachsynthese. Machen Sie die Textverarbeitung einfach und effizient." data-en="Professional text conversion tools for OCR, translation, and speech synthesis. Making text processing simple and efficient.">Professionelle Textkonvertierungstools für OCR, Übersetzung und Sprachsynthese. Machen Sie die Textverarbeitung einfach und effizient.</p>
                 </div>
                 <div class="footer-section">
-                    <h3>Services</h3>
-                    <p><a href="#ocr">OCR Text Recognition</a></p>
-                    <p><a href="#translation">Language Translation</a></p>
-                    <p><a href="#speech">Text to Speech</a></p>
+                    <h3 data-de="Dienstleistungen" data-en="Services">Dienstleistungen</h3>
+                    <p><a href="#ocr" data-de="OCR Texterkennung" data-en="OCR Text Recognition">OCR Texterkennung</a></p>
+                    <p><a href="#translation" data-de="Sprachübersetzung" data-en="Language Translation">Sprachübersetzung</a></p>
+                    <p><a href="#speech" data-de="Text zu Sprache" data-en="Text to Speech">Text zu Sprache</a></p>
                 </div>
                 <div class="footer-section">
-                    <h3>Contact</h3>
+                    <h3 data-de="Kontakt" data-en="Contact">Kontakt</h3>
                     <p><a href="mailto:info@dominic-bilke.de">info@dominic-bilke.de</a></p>
                     <p><a href="https://www.dominic-bilke.de" target="_blank">www.dominic-bilke.de</a></p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Bilke Web and Software Development. All rights reserved.</p>
+                <p>&copy; 2024 Bilke Web and Software Development. <span data-de="Alle Rechte vorbehalten." data-en="All rights reserved.">Alle Rechte vorbehalten.</span></p>
                 <p>
-                    <a href="https://www.dominic-bilke.de/en/privacy-policy" target="_blank">Privacy Policy</a> | 
-                    <a href="https://www.dominic-bilke.de/en/terms-of-service" target="_blank">Terms of Service</a> | 
-                    <a href="https://www.dominic-bilke.de/en/imprint" target="_blank">Imprint</a>
+                    <a href="https://www.dominic-bilke.de/en/privacy-policy" target="_blank" data-de="Datenschutz" data-en="Privacy Policy">Datenschutz</a> | 
+                    <a href="https://www.dominic-bilke.de/en/terms-of-service" target="_blank" data-de="Nutzungsbedingungen" data-en="Terms of Service">Nutzungsbedingungen</a> | 
+                    <a href="https://www.dominic-bilke.de/en/imprint" target="_blank" data-de="Impressum" data-en="Imprint">Impressum</a>
                 </p>
             </div>
         </div>

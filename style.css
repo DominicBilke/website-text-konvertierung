@@ -695,6 +695,16 @@ body {
   .file-upload-label i {
     font-size: 1.5rem;
   }
+  
+  .language-switcher {
+    margin-left: auto;
+  }
+  
+  .lang-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+    min-width: 2.5rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -895,6 +905,43 @@ body {
 
 .nav-link:hover::after {
   width: 100%;
+}
+
+/* Language Switcher */
+.language-switcher {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.lang-btn {
+  background: var(--bg-secondary);
+  border: 2px solid var(--border-color);
+  color: var(--text-secondary);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 3rem;
+  text-align: center;
+}
+
+.lang-btn:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  background: var(--bg-primary);
+}
+
+.lang-btn.active {
+  background: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+.lang-btn.active:hover {
+  background: var(--primary-dark);
 }
 
 /* Enhanced Logo */
