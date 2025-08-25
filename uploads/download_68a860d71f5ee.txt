@@ -1,0 +1,177 @@
+ING-DiBa AG · 60628 Frankfurt am Main
+
+Date: January 31, 2025
+Statement number: 1
+Dominic Bilke Authorized overdraft: €500.00
+Wappenhenschstr. 1 Old balance: €263.23
+04720 Döbeln New balance: €1,003.17
+IBAN DE77 5001 0517 5442 6431 04
+BIC INGDDEFFXXX
+Page 1 of 3
+
+Current account number: 5442643104
+January 2025 bank statement
+
+Entry: Entry/Purpose: Amount (EUR)
+Value date
+
+January 2, 2025 Transfer: IWG Deutschland GmbH -128.02
+January 2, 2025
+Reference: 2798-2024-1700INV
+January 2, 2025 Transfer: Dominic Bilke-100.00
+02/01/2025 Transfer IngDiBa
+02/01/2025 Direct Debit VISA ASK-A-QUERY QNC 123 -94.00
+02/01/2025 NR XXXX 4018 HANNOVER DE PURCHASE SALES 29.12 94.00 183021
+ARN74609054364500012378606
+02/01/2025 Credit GABAL-Verlag GmbH with limited liability 1,400.00
+02/01/2025 Liability
+Invoice FA2411-0051
+Reference: CCB.002.US.POS00022095
+January 2, 2025 Transfer Dominic Bilke -300.00
+January 2, 2025 Transfer IngDiBa
+January 2, 2025 Transfer Dominic Bilke -800.00
+January 2, 2025 Transfer IngDiBa
+January 3, 2025 Credit Dominic Bilke 60.00
+January 3, 2025 Transfer IngDiBa
+January 3, 2025 Debit VISA PAYPAL *GOLEMMEDIAG -199.92
+January 3, 2025 NR XXXX 4018 35314369001 DE PURCHASE SALES 12/30 199.92 161821
+ARN74198814365452141457971
+34GKKA5442643104_T
+
+03.01.2025 Direct Debit VISA PAYPAL *QNC GMBH -80.00
+03.01.2025 NO. XXXX 4018 05111235673 DE PURCHASE AMOUNTTZ 29.12 80.00 212902 
+ARN74244694365452772743962 
+
+ING-DiBa AG · Theodor-Heuss-Allee 2 · 60486 Frankfurt am Main · Chairwoman of the Supervisory Board: Susanne Klöß-Braekler · Management Board: Lars Stoy (Chairman), 
+Michael Clijdesdale, Eddy Henning, Nikolaus Maximilian Linaric, Dr. Ralph Müller, Nurten Spitzer-Erdogan · Registered office: Frankfurt am Main · Frankfurt am Main District Court · HRB 7727 
+Tax number: 014 220 2800 4 · VAT ID no.: DE 114 103 475 · Internet: www.ing.de · BIC: INGDDEFFXXX · Member of the Deposit Protection Fund
+Current account number 5442643104
+Account statement January 2025
+
+Date: January 31, 2025
+Page 2 of 3
+
+Entry Entry / Purpose Amount (EUR)
+Value date
+
+January 7, 2025 Direct debit VISA FRAG-EINEN-ANW QNC 123 -125.00
+January 7, 2025 NR XXXX 4018 HANNOVER DE PURCHASE SALES 05.01 125.00 184358 
+ARN74609055005500013681778 
+07.01.2025 Direct Debit VISA ASK-A-QUERY QNC 123 -125.00 
+07.01.2025 NR XXXX 4018 HANNOVER DE PURCHASE SALES 04.01 125.00 040111 
+ARN74609055004500008092099 
+07.01.2025 Direct Debit VISA PAYPAL *FLEUROP AG -127.40 
+07.01.2025 NR XXXX 4018 3071371202 DE PURCHASE SALES 04.01 127.40 133436 
+ARN74244695005500108918519 
+07.01.2025 Direct Debit VISA OPENAI *CHATGPT SUBSCR -23.20 
+07.01.2025 NR XXXX 4018 HTTPSOPENAI US PURCHASE SALES 06.01 00:23 
+23.80 012349 ARN24492165006000003294956 
+07.01.2025 Fee VISA OPENAI *CHATGPT SUBSCR -0.51 
+06.01.2025 VISA 4546 XXXX XXXX 4018 FOREIGN TRANSACTION FEE VISA CARD
+(DEBIT CARD) ARN24492165006000003294956 
+09.01.2025 Debit VISA HOTEL AT BOOKING.COM -25.70 
+09.01.2025 NR XXXX 4018 AMSTERDAM NL PURCHASE SALES 07.01 25.70 175154 
+ARN74987505007001315069030 
+10.01.2025 Credit Dominic Bilke 500.00 
+10.01.2025 Transfer IngDiBa 
+13.01.2025 Credit VISA HOTEL AT BOOKING.COM 25.70 
+10.01.2025 NR XXXX 4018 AMSTERDAM NL CREDIT RECEIPT 07.01 25.70
+203601
+14.01.2025 Transfer Dominic Bilke -100.00
+14.01.2025 Transfer IngDiBa
+15.01.2025 Credit CLAUDIA FRANZ 120.00
+15.01.2025 Invoice FA2412
+17.01.2025 Debit VISA ASK-A-QUERY QNC 123 -85.00
+17.01.2025 NR XXXX 4018 HANNOVER DE PURCHASE SALES 16.01 85.00 025256
+ARN74609055016500002901184
+January 17, 2025 Direct Debit VISA ASK-A-QUERY QNC 123 -125.00
+January 17, 2025 No. XXXX 4018 HANNOVER DE PURCHASE SALES 16.01 125.00 011036
+34GKKA5442643104_T
+
+ARN74609055016500002536113
+January 20, 2025 Direct Debit VISA ASK-A-QUERY QNC 123 -125.00
+January 20, 2025 No. XXXX 4018 HANNOVER DE PURCHASE SALES 16.01 125.00 163758
+ARN74609055016000006886762
+Current Account Number 5442643104
+January 2025 Account Statement
+
+Date: January 31, 2025
+Page 3 of 3
+
+Entry Entry / Purpose Amount (EUR)
+Value Date
+
+January 21, 202025 Transfer Dominic Bilke -50.00
+21.01.2025 Transfer IngDiBa
+21.01.2025 Direct Debit VISA IWG GERMANY BUSINESS -108.98
+21.01.2025 No. XXXX 4018 DESSELDORF DE PURCHASE SALES 18.01 108.98 114241
+ARN74697695019920011478250
+21.01.2025 Direct Debit VISA IWG GERMANY BUSINESS -19.04
+21.01.2025 No. XXXX 4018 DESSELDORF DE PURCHASE SALES 18.01 19.04 114239
+ARN74697695019920011482252 
+21.01.2025 Direct Debit VISA GOOGLE WORKSPACE -8.99 
+21.01.2025 NR XXXX 4018 DUBLIN IE PURCHASE SALES 19.01 8.99 114154 
+ARN74987505019001824258054 
+21.01.2025 Direct Debit VISA ASK-A-QUERY QNC 123 -125.00 
+21.01.2025 NR XXXX 4018 HANNOVER DE PURCHASE SALES 19.01 125.00 193629 
+ARN74609055020500000391002
+January 21, 2025 Credit to Dominic Bilke 10.00
+January 21, 2025 Transfer to IngDiBa
+January 29, 2025 Credit to Dominic Bilke 500.00
+January 29, 2025 Transfer to IngDiBa
+January 30, 2025 Credit to Dominic Bilke 1,000.00
+January 30, 2025 Transfer to IngDiBa
+New balance 1,003.17
+
+Customer Information
+Current exemption order 1,000.00
+Used savings allowance 0.00
+
+Please also note the information on the following page.
+
+ING-DiBa AG
+34GKKA5442643104_T
+Please note the following information:
+
+Account Statement (Account Overview)
+We ask you to check the account statement in accordance with Section 11, Paragraph 4 of our General Terms and Conditions.conditions (www.ing.de/agb/)
+for completeness and accuracy and to notify us of any objections in writing immediately.
+
+Account Statement Including Balance Notification
+
+We ask you to check your account balance(s) and notify us of any objections in writing immediately, at the latest within 6 weeks of receipt. If no objections are raised within this period, the balance(s) listed above will be deemed to have been accepted by you in accordance with our General Terms and Conditions. You can request a correction of the account statement even after the deadline has expired, but you must then prove that your account was wrongfully debited or that a credit to which you are entitled was not issued.
+
+Deposit Protection
+
+As deposits, balances are eligible for compensation in accordance with the Deposit Protection Act. Further information
+can be found in the "Information Sheet for Depositors" (see also www.ing.de/einlagensicherung).
+
+In addition to the statutory deposit protection under the Deposit Guarantee Act, ING also participates in the Deposit Guarantee Fund of German Banks (Deposit Guarantee Fund). In accordance with its statutes, this fund protects deposits
+up to the protection limits set out in Section 20 ("Protection of Deposits") of our General Terms and Conditions.
+
+Further information on the protection of your deposits can be found at: www.ing.de/einlagensicherung.
+
+Nominal Interest Rate and Effective Annual Rate of Interest (Change in Interest Rates)
+The nominal interest rates for authorized overdrafts [overdraft facility] and tolerated overdrafts are variable. ING is authorized and obligated to adjust the interest rates in accordance with the following provisions. Changes in the European Central Bank's interest rate for main refinancing operations
+(hereinafter referred to as the ECB interest rate) are decisive for adjustments. The differences existing on September 1, 2010, between the
+nominal interest rates and the ECB interest rate (equivalence ratios) continue to apply. They amount to 8.0 percentage points for authorized overdrafts
+[overdraft facility] and 11.5 percentage points for tolerated overdrafts.
+ING reviews the development of the ECB interest rate on the 15th of each month (review date). Changes in the
+ECB interest rate of at least 0.25 percentpoints (relevant change) compared to the level on September 1, 2010
+or subsequently compared to the level at the time the last relevant ECB interest rate change was determined
+entitle ING to adjust the borrowing rates in the event of increases and oblige ING to adjust the borrowing rates in the event of reductions. A
+reduction in the borrowing rates must at least correspond to the reduction in the ECB interest rate. An increase
+may not exceed the increase in the ECB interest rate. An interest rate adjustment takes effect three calendar months after the
+review date, on the 15th of each month (adjustment date).
+If ING does not exercise its right to increase
+the borrowing rates or does not exercise it fully in the event of an increase in the ECB interest rate by at least 0.25 percentage points, the agreed equivalence ratios will be undercut to the benefit of the
+customer. ING may make up for any unused increase on the 15th of each month, subject to compliance with the agreed equivalence ratios. In the event of a subsequent reduction in the ECB interest rate (relevant reduction), it is only obligated to reduce the debit interest rates if the difference of 8.0 percentage points (authorized overdraft [overdraft facility]) or 11.5 percentage points (permitted overdraft) existing within the agreed equivalence ratio would be exceeded.
+
+ING will inform the customer in advance of any change in the debit interest rate. This information may also be provided via the account statement.
+
+The debit interest rates and any unused increase in the ECB interest rate are set out in the List of Prices and Services. The ECB interest rate as of September 1, 2010, its development, and the development of any unused increase can be found at www.ing.de/zinsanpassungsklausel/.
+
+Transactions with the VISA Card [Debit Card]
+
+Transactions made with the VISA Card [Debit Card] are posted to the current account balance on the day they are received by us and immediately offset. We ask you to check your monthly account statement for accuracy and completeness. Any objections to transactions must be communicated to us in writing within 6 weeks of receipt of the account statement. Failure to submit objections in a timely manner will be deemed approval. You may also withdraw your payment after the deadline.You can request a correction of bookings, but then you must prove that your current account was debited wrongly or that a credit to which you are entitled was not issued.
+ING-DiBa AG
