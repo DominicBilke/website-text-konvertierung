@@ -56,8 +56,8 @@ $txtTofile=$target_file_to;
 $from = $_POST['from'];
 $to = $_POST['to'];
 // When you have your own client ID and secret, put them down here:
-$CLIENT_ID = "";
-$CLIENT_SECRET = "";
+$CLIENT_ID = "bilkedominic@gmail.com";
+$CLIENT_SECRET = "07bbc21c01524c62b757f1be54b493dc";
 $txtTo ="";
 
 $output = str_split($_POST['txt'], 2400);
